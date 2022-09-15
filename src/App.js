@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import {Colors, Fonts} from './constant';
+import {Colors, Fonts} from './const';
 
 const App = () => {
   return (
