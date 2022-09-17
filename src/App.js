@@ -4,8 +4,11 @@ import {NavigationContainer} from '@react-navigation/native';
 import Router from './router';
 import {enableScreens} from 'react-native-screens';
 import {Colors} from './const';
+import RNBootSplash from 'react-native-bootsplash';
+import 'react-native-gesture-handler';
 
 enableScreens();
+RNBootSplash.hide(); // immediate
 
 const MainApp = () => {
   return (
