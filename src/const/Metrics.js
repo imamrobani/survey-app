@@ -16,7 +16,9 @@ const spacings = {
   space40: 40,
   space44: 44,
   space48: 48,
-  space54: 54
+  space54: 54,
+  space58: 58,
+  space62: 62
 };
 
 const radius = {
