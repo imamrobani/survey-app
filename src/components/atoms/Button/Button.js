@@ -1,12 +1,16 @@
-import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {ActivityIndicator, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import React from 'react';
 import {Colors} from '../../../const';
 import {fontType} from '../../../const/Typography';
 
-const Button = ({onPress, title}) => {
+const Button = ({onPress, title, isLoading = false}) => {
   return (
     <TouchableOpacity activeOpacity={0.7} style={styles.container} onPress={onPress}>
-      <Text style={styles.title}>{title}</Text>
+      {isLoading ? (
+        <ActivityIndicator size="small" color={Colors.white} />
+      ) : (
+        <Text style={styles.title}>{title}</Text>
+      )}
     </TouchableOpacity>
   );
 };
