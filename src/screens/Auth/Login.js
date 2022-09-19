@@ -1,10 +1,16 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
+import {spacings} from '../../const/Metrics';
+import ImageLogin from './Auth.fragment/ImageLogin';
+import InputFieldLogin from './Auth.fragment/InputFieldLogin';
+import LoginSubmit from './Auth.fragment/LoginSubmit';
 
 const Login = () => {
   return (
     <View style={styles.container}>
-      <Text>Login Screen</Text>
+      <ImageLogin />
+      <InputFieldLogin />
+      <LoginSubmit />
     </View>
   );
 };
@@ -12,7 +18,7 @@ const Login = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
+    padding: spacings.space36,
     justifyContent: 'center'
   }
 });
