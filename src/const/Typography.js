@@ -36,6 +36,11 @@ const fontType = StyleSheet.create({
     fontSize: fontsize.fs9,
     color: Colors.black
   },
+  fs10RegBlack: {
+    fontFamily: Fonts.POPPINS_REGULAR,
+    fontSize: fontsize.fs10,
+    color: Colors.black
+  },
 
   // GREY PRIMARY
   fs8RegGreyPrimary: {

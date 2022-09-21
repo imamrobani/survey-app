@@ -3,7 +3,7 @@ import {StyleSheet, Text, View} from 'react-native';
 
 const Customer = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Text>Customer</Text>
     </View>
   );
