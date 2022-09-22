@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import {IcNotif, LogoMovus} from '../../../assets';
-import {fontType} from '../../../const';
+import {IcNotif, LogoMovus} from '@assets';
+import {fontType} from '@const';
 
 const HeaderHome = () => {
   return (
@@ -19,7 +19,6 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     justifyContent: 'space-between'
-    // padding: 24
   }
 });
 
