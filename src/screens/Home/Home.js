@@ -1,10 +1,14 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
+import {Colors} from '../../const';
+import HeaderHome from './Home.fragment/HeaderHome';
+import TitleHome from './Home.fragment/TitleHome';
 
 const Home = () => {
   return (
     <View style={styles.container}>
-      <Text>Home</Text>
+      <HeaderHome />
+      <TitleHome />
     </View>
   );
 };
@@ -12,8 +16,7 @@ const Home = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center'
+    backgroundColor: Colors.white
   }
 });
 

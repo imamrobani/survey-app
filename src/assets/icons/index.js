@@ -6,6 +6,11 @@ import IcTabSurveyOff from './ic-tab-survey-off.svg';
 import IcTabSurveyOn from './ic-tab-survey-on.svg';
 import IcTabHelpOff from './ic-tab-help-off.svg';
 import IcTabHelpOn from './ic-tab-help-on.svg';
+import IcNotif from './ic-notif.svg';
+import IcLoc from './ic-loc.svg';
+import IcRainy from './ic-rainy.svg';
+import IcNightCloudy from './ic-night-cloudy.svg';
+import IcNightClear from './ic-night-clear.svg';
 
 export {
   IcTabHomeOff,
@@ -15,5 +20,10 @@ export {
   IcTabSurveyOff,
   IcTabSurveyOn,
   IcTabHelpOff,
-  IcTabHelpOn
+  IcTabHelpOn,
+  IcNotif,
+  IcLoc,
+  IcRainy,
+  IcNightCloudy,
+  IcNightClear
 };

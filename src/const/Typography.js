@@ -53,6 +53,11 @@ const fontType = StyleSheet.create({
     fontSize: fontsize.fs9,
     color: Colors.greyPrimary
   },
+  fs10RegGreyPrimary: {
+    fontFamily: Fonts.POPPINS_REGULAR,
+    fontSize: fontsize.fs10,
+    color: Colors.greyPrimary
+  },
   fs12RegGreyPrimary: {
     fontFamily: Fonts.POPPINS_REGULAR,
     fontSize: fontsize.fs12,
@@ -68,11 +73,41 @@ const fontType = StyleSheet.create({
     fontSize: fontsize.fs16,
     color: Colors.greyPrimary
   },
+  fs18RegGreyPrimary: {
+    fontFamily: Fonts.POPPINS_REGULAR,
+    fontSize: fontsize.fs18,
+    color: Colors.greyPrimary
+  },
+  fs18SemiGreyPrimary: {
+    fontFamily: Fonts.POPPINS_SEMIBOLD,
+    fontSize: fontsize.fs18,
+    color: Colors.greyPrimary
+  },
 
   // WHITE
+  fs10RegWhite: {
+    fontFamily: Fonts.POPPINS_REGULAR,
+    fontSize: fontsize.fs10,
+    color: Colors.white
+  },
+  fs12RegWhite: {
+    fontFamily: Fonts.POPPINS_REGULAR,
+    fontSize: fontsize.fs12,
+    color: Colors.white
+  },
   fs14RegWhite: {
     fontFamily: Fonts.POPPINS_REGULAR,
     fontSize: fontsize.fs14,
+    color: Colors.white
+  },
+  fs16RegWhite: {
+    fontFamily: Fonts.POPPINS_REGULAR,
+    fontSize: fontsize.fs16,
+    color: Colors.white
+  },
+  fs32RegWhite: {
+    fontFamily: Fonts.POPPINS_REGULAR,
+    fontSize: fontsize.fs32,
     color: Colors.white
   }
 });
