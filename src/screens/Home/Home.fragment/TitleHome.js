@@ -16,7 +16,7 @@ const TitleHome = () => {
 
 const styles = StyleSheet.create({
   container: {
-    padding: 24
+    paddingVertical: 24
   }
 });
 

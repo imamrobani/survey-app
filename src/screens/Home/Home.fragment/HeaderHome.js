@@ -18,8 +18,8 @@ const HeaderHome = () => {
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
-    padding: 24
+    justifyContent: 'space-between'
+    // padding: 24
   }
 });
 
